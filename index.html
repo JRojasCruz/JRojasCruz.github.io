@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge - Desafío 1</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoImg" src="img/Logo-1.png">
+            <h1 class="tittle">Encriptador de mensajes</h1>
+        </div>
+        <div class="left">
+            <textarea class="text-input" id="inputText" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+        <div class="rigth">
+            <img src="img/Muñeco.png" id="imgRigth">
+            <h1 id="texto">Ningún mensaje fue encontrado</h1>
+            <textarea name="name" id="textEdit" rows="8" cols="80" readonly>Ingrese el texto que desees encriptar o desencriptar</textarea>
+            <button type="button" id="copy" style="color:#0A3871">¡Copiar!</button>
+            <span id="textoCopiado"></span>
+            
+        </div>
+        <div class="left-button">
+            <p><img src="img/exclamacion.png" alt=""> Solo minúsculas y sin acentos</p>
+            <button type="button" style="color:white" id="btnEncrypt">Encriptar</button>
+            <button type="button" style="color:#0A3871" id="btnDecrypt">Desencriptar</button>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+
+    </div>
+</body>
+</html>
